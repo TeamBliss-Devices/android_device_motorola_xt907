@@ -47,3 +47,6 @@ DEVICE_RESOLUTION := 540x960
 # BlissPop Configs
 BLISSIFY := true
 BLISS_BUILD_BLOCK := 1
+
+# Kernel
+TARGET_GCC_VERSION_ARM := 4.10-linaro
