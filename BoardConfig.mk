@@ -46,3 +46,4 @@ DEVICE_RESOLUTION := 540x960
 
 # BlissPop Configs
 BLISSIFY := true
+BLISS_BUILD_BLOCK := 1
