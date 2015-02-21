@@ -32,5 +32,5 @@ $(call inherit-product, device/motorola/xt907/device.mk)
 PRODUCT_DEVICE := xt907
 PRODUCT_NAME := full_xt907
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := DROID RAZR M
+PRODUCT_MODEL := Razr M
 PRODUCT_MANUFACTURER := motorola
