@@ -1,6 +1,3 @@
-# Bliss Viper Audio Mod
-BLISS_AUDIO_MOD := viper
-
 # Inherit some common Bliss stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
@@ -22,6 +19,9 @@ TARGET_VENDOR_PRODUCT_NAME := XT907_verizon
 TARGET_VENDOR_DEVICE_NAME := scorpion_mini
 
 $(call inherit-product, device/motorola/xt907/full_xt907.mk)
+
+#Bliss Viper Audio Mod
+BLISS_AUDIO_MOD := viper
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=motorola/XT907_verizon/scorpion_mini:4.4.2/KDA20.62-15.1/15:user/release-keys \
