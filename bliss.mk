@@ -1,6 +1,3 @@
-# Bliss Viper Audio Mod
-BLISS_AUDIO_MOD := viper
-
 # Inherit some common Bliss stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
